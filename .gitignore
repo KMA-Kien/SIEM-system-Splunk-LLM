@@ -1,0 +1,13 @@
+# File cấu hình và thông tin nhạy cảm
+*.conf
+*.log
+*.tmp
+__pycache__/
+*.pyc
+.env
+venv/
+.DS_Store
+Thumbs.db
+# Prompt configuration (contains sensitive security prompts)
+splunk_app/bin/prompts_config.json
+*.config.json
